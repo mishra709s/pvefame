@@ -1,0 +1,88 @@
+﻿/**
+ *	@package	 Loyalé - HTML5 Template - version 1.0
+ *	@copyright	 Copyright (C) 7Studio 2016 - seventhemes.com  All rights reserved.
+ *	@license	 https://themeforest.net/licenses/terms/regular
+**/
+
+
+/**
+ * Please use this file to store any custom CSS style.
+ */
+
+/* Font families */
+body {
+	font-family: 'Merriweather', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.btn,
+.main-nav,
+.tabs li a,
+.article-header .time,
+.masonry-nav > ul li a,
+.dropcap:first-letter {
+	font-family: 'Playfair Display SC', serif;
+}
+
+
+/* Colors */
+a,
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+	color: #b0a590;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.btn {
+	background-color: #baae99;
+}
+
+.btn-primary {
+	background-color: #333333;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	background-color: #050505;
+}
+
+.article-header .time {
+	background-color: #baae99;
+}
+
+.module.color-title .module-title {
+	background-color: #baae99;
+}
+
+.module.color .module-title > * {
+	color: #baae99;
+}
+
+.module.box-color {
+	background-color: #baae99;
+	color: #ece6d9;
+}
+
+.module.border-color .module-title {
+	border-bottom: 2px solid #baae99;
+}
+
+.module.border-color-top .module-title {
+	border-top: 2px solid #baae99;
+}

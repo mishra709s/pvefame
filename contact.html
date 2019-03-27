@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--
+	Loyalé - HTML5 Template - version 1.0
+	Copyright (C) 2016 7Studio - seventhemes.com All rights reserved.
+	https://themeforest.net/licenses/terms/regular
+-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Title and description -->
+		<title>Purple Vision Entertainment</title>
+		<meta name="description" content="Loyalé - beautiful, responsive HTML5 site template">
+		
+		<!-- Favicon -->
+		<link rel="icon" href="assets/images/favicon.png">
+		
+		<!--Stylesheets -->
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/custom.css">
+		
+		<!-- Google Fonts -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i"> 
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,700">
+		
+		<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="site">
+			<!-- Main sidebar -->
+			<div class="main-sidebar">
+				<div class="table">
+					
+					<!-- Header -->
+					<header class="header">
+						<div class="logo">
+							<a href="index.html">
+								<img alt="Loyalé" src="assets/images/logo.png" class="desktop visible-desktop">
+								<img alt="Loyalé" src="assets/images/mobile-logo.png" class="mobile hidden-desktop">
+							</a>
+						</div>
+					</header>
+					
+					<!-- Main menu -->
+					<div class="middle">
+						<div class="main-nav cell">
+							<span class="horizontal-line"></span>
+							<ul class="menu">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About Us</a></li>
+								<!-- <li class="parent"><a href="#">Template</a>
+									<ul>
+										<li><a href="typography.html">Typography</a></li>
+										<li><a href="elements.html">Elements</a></li>
+										<li><a href="maintance.html">Maintance</a></li>
+										<li><a href="404.html">404 page</a></li>
+										<li class="parent"><a href="#">Third level</a>
+											<ul>
+												<li><a href="#">First item</a></li>
+												<li><a href="#">Second item</a></li>
+												<li><a href="#">Third item</a></li>
+												<li><a href="#">Fourth item</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li> -->
+								<!-- <li><a href="masonry.html">Masonry</a></li> -->
+								<li><a href="galleries.html">Gallery</a></li>
+								<li><a href="services.html">Services</a></li>
+
+								<!-- <li class="parent"><a href="#">menu</a>
+									<ul>
+										<li><a href="menu.html">Classic Menu</a></li>
+										<li><a href="menu-toggle.html">Toggle Menu</a></li>
+									</ul>
+								</li>
+								<li class="parent"><a href="#">Blog</a>
+									<ul>
+										<li><a href="blog-article.html">Blog Article</a></li>
+										<li><a href="blog-category.html">Blog Category</a></li>
+									</ul>
+								</li> -->
+								<li class="active"><a href="contact.html">Contact</a></li>
+							</ul>
+							<span class="horizontal-line"></span>
+						</div>	
+					</div>
+					
+					<!-- Footer -->
+					<footer class="footer">
+						<ul class="social-icons">
+							<li><a href="https://plus.google.com/u/1/107407373009293903177" target="_blank"><span class="fa fa-google-plus"></span></a></li>
+							<li><a href="https://twitter.com/pvefame" target="_blank"><span class="fa fa-twitter"></span></a></li>
+							<li><a href="https://www.facebook.com/pvefame" target="_blank"><span class="fa fa-facebook-f"></span></a></li>
+							<li><a href="https://www.pinterest.com/pvefame" target="_blank"><span class="fa fa-pinterest-p"></span></a></li>
+						</ul>
+						<span class="horizontal-line"></span>
+						<p class="copyrights"><a href="http://www.pvefame.com" target="_blank">PVE Fame</a> © 2016</p>
+					</footer>
+				</div>
+				
+				<!-- Mobile menu - toggle button -->
+				<button class="menu-button mobile-toggle"><span></span></button>
+			</div>
+			
+			<!-- Main Container -->
+			<div class="main">
+				<div class="content single">
+					
+					<!--Article Content -->
+					<div class="article-content clearfix">
+						<!-- Google Maps Container -->
+						<div class="st-maps">
+							<div id="map-canvas"></div>
+						</div>
+						
+						<!-- Contact Details -->
+						<div class="row-fluid">
+							<div class="col-4-12">
+								<address>Purple Vision Entertainment<br />
+											Office No D 28, Ground Floor,<br />
+											Gagan Avenue, Kondwa Budruk,<br />
+											PO Box 411048, Pune<br />
+											Maharashtra, India
+											</address>
+								<p><a href="mailto:info@pvefame.in">info@pvefame.in</a><br />
+								</p>
+							
+								<p>Opening Hours:<br />
+								Mon - Sat:	 10:00 - 18:00<br />
+							</div>
+							<div class="col-8-12">
+								<!-- Alerts -->
+								<div id="success" class="hide alert alert-success">
+									<span>Your message was sent succssfully!</span>
+								</div>
+								<div id="error" class="hide alert alert-error">
+									<span>Something went wrong, try refreshing and submitting the form again.</span>
+								</div>
+								<!-- Contact Form -->
+								<form id="contact" name="contact" method="post" class="contact-form">  
+									<fieldset>
+										<legend>* All fields with an asterisk (*) are required.</legend>
+										<div class="grid-row">
+											<div class="col-6-12">
+												<label for="name">Name<span class="required"> *</span></label>
+												<input type="text" name="name" id="name" size="30" value="" required/>
+											</div>
+											<div class="col-6-12">
+												<label for="email">Email<span class="required"> *</span></label>
+												<input type="email" name="email" id="email" size="30" value="" required/>
+											</div>
+											<div class="col-12-12">	
+												<label for="phone">Phone</label>
+												<input type="text" name="phone" id="phone" size="30" value=""/>
+											</div>
+											<div class="col-12-12">	
+												<label for="message">Message<span class="required"> *</span></label>
+												<textarea name="message" rows="7" cols="40" id="message" required></textarea>
+											</div>
+										</div>
+										<input id="submit" type="submit" name="submit" value="Send Email" />
+									</fieldset>	 
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Main Container -->
+		</div>
+		
+		<!-- Background Section -->
+		<div class="background">
+			<div class="background-image" style="background-image: url('assets/images/background/contact.jpg');">
+				<div class="mask"></div>
+			</div>
+		</div>
+		
+		<!-- Mobile Nav -->
+		<div class="mobile-overlay">
+			<button class="mobile-toggle dismiss"><span></span></button>
+			<div class="mobile-nav clearfix"></div>
+		</div>
+		
+		<!-- To Top Button -->
+		<button class="totop">&uarr;</button>
+		
+		<!-- Scripts -->
+		<script src="assets/js/jquery-3.1.0.min.js"></script>
+		<script src="assets/js/lightbox.min.js"></script>
+		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+		<script src="assets/js/bs.carousel.min.js"></script>
+		<script src="assets/js/jquery.isotope.min.js"></script>
+		<script src="assets/js/scripts.js"></script>
+		<!-- required JS for contact page -->
+		<!-- Add your own Google Maps API Key here -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=YOURAPIKEY"></script>
+		<script src="assets/js/jquery.form.min.js"></script>
+		<script src="assets/js/jquery.validate.min.js"></script>
+		<script src="assets/js/contact.js"></script>
+	</body>
+</html>
